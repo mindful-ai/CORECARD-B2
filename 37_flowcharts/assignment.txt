@@ -1,0 +1,3 @@
+1. Install draw.io in your local machine 
+2. Create a flow chart for detecting if a number is prime or not 
+3. Create a flow chart for generating N fibonacci numbers
