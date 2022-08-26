@@ -1,0 +1,57 @@
+def myfunction(n):
+    print(n)
+    myfunction(n-1)
+
+if __name__ == '__main__':
+    myfunction(10)
+
+
+def myfunction(n):
+    print(n)
+    if( n < 5 ):
+        return
+    myfunction(n-1)
+
+myfunction(10)
+    myfunction(9)
+        myfunction(8)
+            myfunction(7)
+                myfunction(6)
+                    myfunction(5)
+                        myfunction(4)
+        ..
+        ..
+        .
+
+-------------------------------------------------------------
+
+def fact(5):
+    if 5 == 1:
+        return 1
+    else:
+        return  5 * fact(4)
+
+
+def fact(4):
+    if 4 == 1:
+        return 1
+    else:
+        return  4 * fact(3)
+
+def fact(3):
+    if 3 == 1:
+        return 1
+    else:
+        return  3 * fact(2)
+
+def fact(2):
+    if 2 == 1:
+        return 1
+    else:
+        return  2 * fact(1)
+
+def fact(1):
+    if 1 == 1:
+        return 1
+    else:
+        return  2 * fact(1)
