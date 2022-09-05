@@ -1,0 +1,4 @@
+while True:
+    n = input("Enter Data")
+    # Add data into a linked list
+    # Stop the process at an appropriate position
